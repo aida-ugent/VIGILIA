@@ -4,30 +4,25 @@ title: VIGILIA
 permalink: /
 ---
 
-## Vigilant AI for high-stakes decisions
+## VIGILIA
 
-**VIGILIA** is an ERC Advanced Grant project led by **Prof. Tijl De Bie** at the [AIDA-IDLab research group](https://aida.ugent.be/), Ghent University. The project investigates how machine learning systems can become more reliable, transparent, and accountable in high-stakes settings.
+**VIGILIA** is an **ERC Advanced Grant** project at **Ghent University** within the [AIDA-IDLab research group](https://aida.ugent.be/), led by **Prof. Tijl De Bie**.
 
-### Project at a glance
+### Project facts
 
-- **Grant type:** ERC Advanced Grant
 - **Project acronym:** VIGILIA
+- **Funding programme:** ERC Advanced Grant
 - **Grant ID:** 101142229
 - **Host institution:** Ghent University
 - **Research group:** AIDA-IDLab
 - **Project duration:**
-  - Start date: Month YYYY *(replace before publish)*
-  - End date: Month YYYY *(replace before publish)*
+  - Start date: see [CORDIS](https://cordis.europa.eu/project/id/101142229)
+  - End date: see [CORDIS](https://cordis.europa.eu/project/id/101142229)
 
-For official administrative details, see the [CORDIS project page](https://cordis.europa.eu/project/id/101142229) and the [Ghent University research portal](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/nl).
+For the official project description, objectives, and administrative details, consult:
 
-### Objectives
-
-VIGILIA studies principles, methods, and tools for building AI systems that can be **trusted under uncertainty**, especially when decisions affect people directly. The project focuses on:
-
-1. Better uncertainty awareness and risk-sensitive decision support.
-2. Robust learning in evolving and imperfect real-world environments.
-3. Interpretable, auditable, and responsible AI workflows.
+- [CORDIS project page](https://cordis.europa.eu/project/id/101142229)
+- [Ghent University research portal entry](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/en)
 
 ### Team
 
@@ -39,4 +34,4 @@ VIGILIA studies principles, methods, and tools for building AI systems that can 
 
 ### News and updates
 
-We publish project updates in our [blog]({{ '/blog/' | relative_url }}), including events, awards, publications, and perspectives from the team.
+We publish project updates in our [blog]({{ '/blog/' | relative_url }}).

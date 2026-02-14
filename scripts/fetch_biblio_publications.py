@@ -13,6 +13,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_FILE = REPO_ROOT / "_data" / "publications.yml"
 BASE_URL = "https://biblio.ugent.be/publication"
 DEFAULT_Q = "project = vigilia"
+GRANT_ID = "101142229"
+PROJECT_TOKEN = "vigilia"
 DEFAULT_SORT = ["year.desc", "relevance.desc"]
 
 
@@ -73,6 +75,24 @@ def canonical_url(item: dict) -> str:
     return f"https://biblio.ugent.be/publication/{bid}" if bid else ""
 
 
+
+
+def _contains_project_marker(item: dict) -> bool:
+    """Keep only records that clearly mention VIGILIA in project/funding metadata."""
+    text = json.dumps(item, ensure_ascii=False).lower()
+    if GRANT_ID in text:
+        return True
+
+    project_fields = []
+    for key in ("project", "projects", "funding_info", "funding", "grants", "acknowledgements"):
+        value = item.get(key)
+        if value is not None:
+            project_fields.append(value)
+    if project_fields and PROJECT_TOKEN in json.dumps(project_fields, ensure_ascii=False).lower():
+        return True
+
+    return False
+
 def parse_json(payload: str) -> tuple[list[Publication], int, int]:
     data = json.loads(payload)
     records = []
@@ -90,6 +110,9 @@ def parse_json(payload: str) -> tuple[list[Publication], int, int]:
     for item in records:
         if not isinstance(item, dict):
             continue
+        if not _contains_project_marker(item):
+            continue
+
         pubs.append(
             Publication(
                 title=str(item.get("title") or item.get("name") or "Untitled").strip(),
@@ -111,11 +134,14 @@ def fetch_all() -> list[Publication]:
     while True:
         url = f"{BASE_URL}?format=json&q={quote(DEFAULT_Q)}{sort_params}&limit={limit}&start={start}"
         page, total, size = parse_json(fetch(url))
-        if not page:
-            break
         publications.extend(page)
-        start += size or len(page)
-        if (total and start >= total) or (size == 0):
+
+        batch_size = size or 0
+        if batch_size <= 0:
+            break
+
+        start += batch_size
+        if total and start >= total:
             break
     return publications
 
