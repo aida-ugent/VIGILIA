@@ -4,8 +4,8 @@ title: Publications
 permalink: /publications/
 ---
 
-This page lists publications acknowledging ERC Advanced Grant **VIGILIA (101142229)**.
-Data is maintained in `_data/publications.yml` and can be refreshed automatically using `scripts/fetch_biblio_publications.py`.
+This page is automatically synchronized with UGent biblio records for ERC Advanced Grant **VIGILIA (101142229)**.
+The cache file (`_data/publications.yml`) is refreshed by CI on a schedule via `scripts/fetch_biblio_publications.py`, so no manual list maintenance is required.
 
 {% assign pubs = site.data.publications | sort: 'year' | reverse %}
 
@@ -28,6 +28,6 @@ Data is maintained in `_data/publications.yml` and can be refreshed automaticall
 {% else %}
   <div class="empty-state">
     <h3>No publications listed yet</h3>
-    <p>Once publications are indexed in the Ghent University biblio database with VIGILIA funding acknowledgement, they will appear here.</p>
+    <p>When entries are indexed in UGent biblio with VIGILIA-linked metadata or matching project identifiers, they are picked up automatically during the next sync run.</p>
   </div>
 {% endif %}

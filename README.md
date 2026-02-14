@@ -48,6 +48,12 @@ If conflicts are complex, create a fresh branch from the latest default branch, 
 - Publications page: `publications.md`
 - Publication data cache: `_data/publications.yml`
 
+## UGent biblio publication sync details
+
+Preferred source endpoint: `https://biblio.ugent.be/publication?format=json&text=<query>`.
+The sync script queries this JSON endpoint with VIGILIA identifiers (grant id, acronym, and related terms), normalizes entries, removes duplicates by canonical URL/ID, and writes `_data/publications.yml`.
+If JSON is unavailable for a query, the script falls back to a minimal HTML parser.
+
 ## Automatic publication updates
 
 A GitHub Actions workflow (`.github/workflows/update-publications.yml`) runs weekly to refresh publications from UGent biblio and commits updates automatically when data changes.
