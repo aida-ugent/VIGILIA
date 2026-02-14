@@ -17,6 +17,7 @@ from urllib.request import Request, urlopen
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_FILE = REPO_ROOT / "_data" / "publications.yml"
 DEFAULT_QUERY = "101142229"
+GRANT_ID = DEFAULT_QUERY
 DEFAULT_URL = (
     "https://biblio.ugent.be/publication?f[funding_info][0]="
     + quote_plus(DEFAULT_QUERY)
@@ -42,13 +43,16 @@ def fetch(url: str) -> str:
 def parse_json(payload: str) -> list[Publication]:
     raw = json.loads(payload)
     if isinstance(raw, dict):
-        raw = raw.get("results", [])
+        raw = raw.get("results") or raw.get("hits") or []
+    # Keep only records that explicitly mention the grant id in payload fields.
+    raw = [item for item in raw if GRANT_ID in json.dumps(item, ensure_ascii=False)]
+
     pubs: list[Publication] = []
     for item in raw:
         title = item.get("title") or item.get("name") or "Untitled"
         authors = item.get("authors") or item.get("author") or ""
         if isinstance(authors, list):
-            authors = ", ".join(a.get("full_name", str(a)) if isinstance(a, dict) else str(a) for a in authors)
+            authors = ", ".join((a.get("full_name") or a.get("name") or a.get("name_last_first") or str(a)) if isinstance(a, dict) else str(a) for a in authors)
         year = item.get("year") or item.get("publication_year")
         try:
             year = int(year) if year is not None else None

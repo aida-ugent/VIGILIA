@@ -1,35 +1,7 @@
-- name: Filippos Vlahos
-  role: Team Member
-  title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/filippos.jpg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
-
-- name: Kamile Dementaviciute
-  role: Team Member
-  title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/kamile.png
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
-
-- name: Maria-Louisa Wightman
-  role: Team Member
-  title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/marialuisa.jpeg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
-
-- name: Noêmie De Vlaminck
-  role: Team Member
-  title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/noemie.jpg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
-
 - name: Tijl De Bie
   role: PI
   title: Professor of AI and Data Mining, Ghent University
-  image: https://aida.ugent.be/img/people/tijl.png
+  image: /assets/img/tijl-de-bie.svg
   profile_url: https://aida.ugent.be/
   bio: >-
     Tijl De Bie is Professor at Ghent University and leads research at the intersection of
@@ -39,6 +11,34 @@
 - name: Yousra Fettach
   role: Team Member
   title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/yousra.jpg
+  image: /assets/img/yousra-fettach.svg
+  profile_url: https://aida.ugent.be/
+  bio: Researcher in the VIGILIA team.
+
+- name: Noêmie De Vlaminck
+  role: Team Member
+  title: Doctoral Researcher
+  image: /assets/img/noemie-de-vlaminck.svg
+  profile_url: https://aida.ugent.be/
+  bio: Researcher in the VIGILIA team.
+
+- name: Maria-Louisa Wightman
+  role: Team Member
+  title: Doctoral Researcher
+  image: /assets/img/maria-louisa-wightman.svg
+  profile_url: https://aida.ugent.be/
+  bio: Researcher in the VIGILIA team.
+
+- name: Filippos Vlahos
+  role: Team Member
+  title: Doctoral Researcher
+  image: /assets/img/filippos-vlahos.svg
+  profile_url: https://aida.ugent.be/
+  bio: Researcher in the VIGILIA team.
+
+- name: Kamile Dementaviciute
+  role: Team Member
+  title: Doctoral Researcher
+  image: /assets/img/kamile-dementaviciute.svg
   profile_url: https://aida.ugent.be/
   bio: Researcher in the VIGILIA team.
