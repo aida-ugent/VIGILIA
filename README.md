@@ -1,6 +1,6 @@
 # VIGILIA website
 
-Professional GitHub Pages website for the ERC Advanced Grant **VIGILIA**.
+GitHub Pages website for the ERC Advanced Grant **VIGILIA**.
 
 ## Use GitHub Pages only (no local setup needed)
 
