@@ -19,8 +19,6 @@ Tijl De Bie is Professor of AI and Data Mining at Ghent University and a core me
 
 ## VIGILIA team
 
-> Team photos currently use local placeholders in this repository. Replace image files in `assets/img/` with official AIDA profile photos to publish the final version.
-
 <div class="people-grid">
   {% for person in site.data.people %}
     <article class="person-card">
