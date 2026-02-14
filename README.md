@@ -2,66 +2,53 @@
 
 Professional GitHub Pages website for the ERC Advanced Grant **VIGILIA**.
 
-## Make the site live on GitHub Pages (beginner-friendly)
+## Use GitHub Pages only (no local setup needed)
+
+You do **not** need to install Ruby, Jekyll, or run anything on your own computer.
+
+### One-time setup
 
 1. Push this repository to GitHub.
-2. Open **Settings → Pages** in your repository.
-3. Under **Build and deployment**, choose **Source: GitHub Actions**.
-4. Push any commit to your default branch (`main`, `master`, or `work`).
-5. Wait for the workflow **"Deploy Jekyll site to GitHub Pages"** to finish.
-6. Open your live URL shown in:
-   - **Settings → Pages**, or
-   - the completed deploy workflow summary.
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 
-> First deployment can take a few minutes.
+### Publish updates
 
----
-
-## Why preview may not work right now
-
-The preview failed in the current environment because Ruby gems could not be downloaded from `rubygems.org` (network 403). So Jekyll could not be installed locally.
-
-### Reliable preview options
-
-- **Recommended:** use GitHub Actions deploy preview (the live Pages URL).
-- **Local (when network works):**
-  ```bash
-  bundle install
-  bundle exec jekyll serve
-  ```
-  Then open <http://127.0.0.1:4000>.
+1. Edit files directly on GitHub (or via commits pushed to the default branch).
+2. Commit/push your changes.
+3. GitHub automatically runs **Deploy Jekyll site to GitHub Pages**.
+4. After it finishes, your site is live at the Pages URL shown in **Settings → Pages**.
 
 ---
 
-## Content management
+## If GitHub says there are merge conflicts
 
-- Homepage content: `index.md`
-- Team members: `_data/people.yml`
+If a pull request shows conflicts, use GitHub’s web flow:
+
+1. Open the PR.
+2. Click **Resolve conflicts**.
+3. Keep the newer versions of these files when in doubt:
+   - `.github/workflows/deploy-pages.yml`
+   - `README.md`
+   - `_config.yml`
+4. Mark as resolved and commit.
+5. Re-run/complete the merge.
+
+If conflicts are complex, create a fresh branch from the latest default branch, copy over the wanted files, and open a new PR.
+
+---
+
+## Content files you will edit most
+
+- Homepage: `index.md`
+- People data: `_data/people.yml`
 - Team photos: `assets/img/`
 - Timeline: `timeline.md`
-- Blog list page: `blog.md`
+- Blog index: `blog.md`
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
 - Publications page: `publications.md`
-- Publications data: `_data/publications.yml`
+- Publication data cache: `_data/publications.yml`
 
-## Updating profile photos
+## Automatic publication updates
 
-1. Export/download official profile images from the AIDA website.
-2. Save them with the same filenames as referenced in `_data/people.yml`.
-3. Commit and push.
-
-## Publication sync from UGent biblio
-
-Use the helper script:
-
-```bash
-python scripts/fetch_biblio_publications.py
-```
-
-Optional custom source URL:
-
-```bash
-python scripts/fetch_biblio_publications.py "https://biblio.ugent.be/publication?f[funding_info][0]=101142229&format=json"
-```
-
-A GitHub Actions workflow (`.github/workflows/update-publications.yml`) runs weekly and updates `_data/publications.yml` automatically when changes are detected.
+A GitHub Actions workflow (`.github/workflows/update-publications.yml`) runs weekly to refresh publications from UGent biblio and commits updates automatically when data changes.
