@@ -1,4 +1,5 @@
 - name: Tijl De Bie
+  last_name: De Bie
   role: PI
   title: Professor of AI and Data Mining, Ghent University
   image: https://aida.ugent.be/img/people/tijl.png
@@ -9,6 +10,7 @@
     machine learning.
 
 - name: Yousra Fettach
+  last_name: Fettach
   role: Team Member
   title: Doctoral Researcher
   image: https://aida.ugent.be/img/people/yousra.jpg
@@ -16,6 +18,7 @@
   bio: Researcher in the VIGILIA team.
 
 - name: Noêmie De Vlaminck
+  last_name: De Vlaminck
   role: Team Member
   title: Doctoral Researcher
   image: https://aida.ugent.be/img/people/noemie.jpg
@@ -23,6 +26,7 @@
   bio: Researcher in the VIGILIA team.
 
 - name: Maria-Louisa Wightman
+  last_name: Wightman
   role: Team Member
   title: Doctoral Researcher
   image: https://aida.ugent.be/img/people/marialuisa.jpeg
@@ -30,6 +34,7 @@
   bio: Researcher in the VIGILIA team.
 
 - name: Filippos Vlahos
+  last_name: Vlahos
   role: Team Member
   title: Doctoral Researcher
   image: https://aida.ugent.be/img/people/filippos.jpg
@@ -37,6 +42,7 @@
   bio: Researcher in the VIGILIA team.
 
 - name: Kamile Dementaviciute
+  last_name: Dementaviciute
   role: Team Member
   title: Doctoral Researcher
   image: https://aida.ugent.be/img/people/kamile.png
