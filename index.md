@@ -6,29 +6,27 @@ permalink: /
 
 ## VIGILIA
 
-**VIGILIA** is an **ERC Advanced Grant** project at **Ghent University** within the [AIDA-IDLab research group](https://aida.ugent.be/), led by **Prof. Tijl De Bie**.
+**VIGILIA** (VIrtual GuardIan AngeLs for the post-truth Information Age) is an **ERC Advanced Grant** project at **Ghent University**, coordinated by **Prof. Tijl De Bie** within the [AIDA-IDLab research group](https://aida.ugent.be/).
+
+The project addresses the risk of a post-truth information environment in which people can no longer reliably distinguish fact from fiction. Drawing on AI and user modelling, VIGILIA develops methods to detect triggers of cognitive biases and heuristics in how people process information, and studies their effects at interpersonal level (trust, reputation, information propagation) and societal level (irrational behaviour and polarisation). The project integrates these methods into VIrtual GuardIan AngeLs (VIGILs) for news and social media users, journalists, researchers, and policy makers, with ethics treated as a core research component.
 
 ### Project facts
 
 - **Project acronym:** VIGILIA
-- **Funding programme:** ERC Advanced Grant
+- **Funding programme:** ERC Advanced Grant (Horizon Europe)
 - **Grant ID:** 101142229
 - **Host institution:** Ghent University
 - **Research group:** AIDA-IDLab
-- **Project duration:**
-  - Start date: see [CORDIS](https://cordis.europa.eu/project/id/101142229)
-  - End date: see [CORDIS](https://cordis.europa.eu/project/id/101142229)
+- **Start date:** 1 October 2024
+- **End date:** 30 September 2029
 
-For the official project description, objectives, and administrative details, consult:
+Sources: [CORDIS project page](https://cordis.europa.eu/project/id/101142229), [Ghent University project page](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/en).
 
-- [CORDIS project page](https://cordis.europa.eu/project/id/101142229)
-- [Ghent University research portal entry](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/en)
-
-### Team
+### Core team
 
 {% assign all_team = site.data.people | sort: 'last_name' %}
 
-- **Team:** {% for person in all_team %}{{ person.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+- **Core team:** {% for person in all_team %}{{ person.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 ➡ Visit the [People page]({{ '/people/' | relative_url }}) for photos and short bios.
 
