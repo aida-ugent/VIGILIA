@@ -43,11 +43,16 @@ If conflicts are complex, create a fresh branch from the latest default branch, 
 - Homepage: `index.md`
 - People data: `_data/people.yml`
 - Team photos: `assets/img/`
-- Timeline: `timeline.md`
 - Blog index: `blog.md`
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
 - Publications page: `publications.md`
 - Publication data cache: `_data/publications.yml`
+
+## UGent biblio publication sync details
+
+Preferred source endpoint: `https://biblio.ugent.be/publication?format=json&text=<query>`.
+The sync script queries this JSON endpoint with VIGILIA identifiers (grant id, acronym, and related terms), normalizes entries, removes duplicates by canonical URL/ID, and writes `_data/publications.yml`.
+If JSON is unavailable for a query, the script falls back to a minimal HTML parser.
 
 ## Automatic publication updates
 
