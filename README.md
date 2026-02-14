@@ -1,5 +1,6 @@
 # VIGILIA website
 
+Professional GitHub Pages website for the ERC Advanced Grant **VIGILIA**.
 GitHub Pages website for the ERC Advanced Grant **VIGILIA**.
 
 ## Use GitHub Pages only (no local setup needed)
@@ -64,6 +65,26 @@ To create a new PR:
 1. Make a small new commit on your branch (even docs-only is fine).
 2. Push the branch again.
 3. Re-open the compare URL.
+
+---
+
+## If your Pages URL shows 404
+
+Use this quick checklist in GitHub:
+
+1. **Settings → Pages**
+   - Source must be **GitHub Actions**.
+2. **Actions tab**
+   - Confirm workflow **Deploy Jekyll site to GitHub Pages** ran successfully on your active branch.
+3. **Repository branch**
+   - This repo currently deploys on pushes to `main`, `master`, or `work`.
+4. **Project site path**
+   - Open: `https://aida-ugent.github.io/VIGILIA/` (with trailing slash).
+5. **Wait 2–5 minutes** after first successful deploy.
+
+For project pages (`aida-ugent.github.io/VIGILIA`), `_config.yml` must keep:
+- `url: "https://aida-ugent.github.io"`
+- `baseurl: "/VIGILIA"`
 
 ## Local development
 

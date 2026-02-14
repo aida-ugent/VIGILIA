@@ -2,6 +2,8 @@ title: VIGILIA
 email: tijl.debie@ugent.be
 description: >-
   ERC Advanced Grant project website for VIGILIA at Ghent University.
+baseurl: "/VIGILIA"
+url: "https://aida-ugent.github.io"
 baseurl: ""
 url: ""
 markdown: kramdown
