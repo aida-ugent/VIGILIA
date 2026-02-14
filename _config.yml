@@ -17,3 +17,5 @@ header_pages:
   - blog.md
 plugins:
   - jekyll-feed
+sass:
+  style: compressed
