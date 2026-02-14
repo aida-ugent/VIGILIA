@@ -4,10 +4,14 @@ description: >-
   ERC Advanced Grant project website for VIGILIA at Ghent University.
 baseurl: "/VIGILIA"
 url: "https://aida-ugent.github.io"
+baseurl: ""
+url: ""
 markdown: kramdown
 theme: minima
 minima:
   skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/" }
 header_pages:
   - people.md
   - publications.md
