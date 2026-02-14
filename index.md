@@ -15,6 +15,9 @@ permalink: /
 - **Grant ID:** 101142229
 - **Host institution:** Ghent University
 - **Research group:** AIDA-IDLab
+- **Project duration:**
+  - Start date: Month YYYY *(replace before publish)*
+  - End date: Month YYYY *(replace before publish)*
 
 For official administrative details, see the [CORDIS project page](https://cordis.europa.eu/project/id/101142229) and the [Ghent University research portal](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/nl).
 
