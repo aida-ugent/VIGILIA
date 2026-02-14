@@ -4,10 +4,72 @@
   --vigilia-primary: #17365d;
   --vigilia-accent: #2f6db0;
   --vigilia-bg: #f6f8fb;
+  --vigilia-text: #1f2a3a;
 }
 
 .site-header {
   border-top: 6px solid var(--vigilia-primary);
+  border-bottom: 1px solid #d8e1ee;
+  background: #ffffff;
+}
+
+.vigilia-header-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.vigilia-brand-block {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.vigilia-brand-link {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.vigilia-logo {
+  width: clamp(140px, 24vw, 220px);
+  height: auto;
+}
+
+.vigilia-affiliation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.vigilia-tagline {
+  margin: 0;
+  color: var(--vigilia-text);
+  font-size: 0.95rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.vigilia-affiliation-link {
+  color: var(--vigilia-accent);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.vigilia-affiliation-link:hover,
+.vigilia-affiliation-link:focus-visible,
+.vigilia-brand-link:focus-visible {
+  color: #1f4c80;
+  outline: 3px solid rgba(47, 109, 176, 0.35);
+  outline-offset: 2px;
+  border-radius: 6px;
 }
 
 .page-content {
@@ -18,7 +80,9 @@
   max-width: 1080px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--vigilia-primary);
 }
 
@@ -63,10 +127,38 @@ h1, h2, h3 {
   padding: 0.75rem 1rem;
 }
 
-.pub-item, .empty-state {
+.pub-item,
+.empty-state {
   background: #fff;
   border: 1px solid #dde5f0;
   border-radius: 10px;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .vigilia-header-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .site-nav {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .vigilia-brand-block {
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .vigilia-tagline {
+    font-size: 0.88rem;
+  }
+
+  .vigilia-affiliation-link {
+    font-size: 0.82rem;
+    overflow-wrap: anywhere;
+  }
 }
