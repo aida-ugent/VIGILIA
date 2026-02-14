@@ -43,7 +43,6 @@ If conflicts are complex, create a fresh branch from the latest default branch, 
 - Homepage: `index.md`
 - People data: `_data/people.yml`
 - Team photos: `assets/img/`
-- Timeline: `timeline.md`
 - Blog index: `blog.md`
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
 - Publications page: `publications.md`
