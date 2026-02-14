@@ -1,19 +1,18 @@
 - name: Tijl De Bie
   last_name: De Bie
-  role: PI
+  role: Principal Investigator
   title: Professor of AI and Data Mining, Ghent University
   image: https://aida.ugent.be/img/people/tijl.png
   profile_url: https://aida.ugent.be/#people
   bio: >-
-    Tijl De Bie is Professor of AI and Data Mining at Ghent University and a core member of
-    AIDA-IDLab. He leads the ERC Advanced Grant project VIGILIA on reliable and accountable
-    machine learning.
+    Tijl De Bie is Professor of AI and Data Mining at Ghent University and leads
+    the ERC Advanced Grant VIGILIA in the AIDA-IDLab research group.
 
-- name: Yousra Fettach
-  last_name: Fettach
+- name: Kamile Dementaviciute
+  last_name: Dementaviciute
   role: Team Member
   title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/yousra.jpg
+  image: https://aida.ugent.be/img/people/kamile.png
   profile_url: https://aida.ugent.be/#people
   bio: Researcher in the VIGILIA team.
 
@@ -25,11 +24,11 @@
   profile_url: https://aida.ugent.be/#people
   bio: Researcher in the VIGILIA team.
 
-- name: Maria-Louisa Wightman
-  last_name: Wightman
+- name: Yousra Fettach
+  last_name: Fettach
   role: Team Member
-  title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/marialuisa.jpeg
+  title: Postdoctoral Researcher
+  image: https://aida.ugent.be/img/people/yousra.jpg
   profile_url: https://aida.ugent.be/#people
   bio: Researcher in the VIGILIA team.
 
@@ -41,10 +40,10 @@
   profile_url: https://aida.ugent.be/#people
   bio: Researcher in the VIGILIA team.
 
-- name: Kamile Dementaviciute
-  last_name: Dementaviciute
+- name: Maria-Louisa Wightman
+  last_name: Wightman
   role: Team Member
   title: Doctoral Researcher
-  image: https://aida.ugent.be/img/people/kamile.png
+  image: https://aida.ugent.be/img/people/marialuisa.jpeg
   profile_url: https://aida.ugent.be/#people
   bio: Researcher in the VIGILIA team.
