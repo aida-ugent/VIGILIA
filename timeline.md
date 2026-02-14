@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Timeline
-permalink: /timeline/
+permalink: /timeline.html
 ---
 
 ## Project timeline (indicative)
