@@ -1,0 +1,19 @@
+title: VIGILIA
+email: tijl.debie@ugent.be
+description: >-
+  ERC Advanced Grant project website for VIGILIA at Ghent University.
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: minima
+minima:
+  skin: auto
+header_pages:
+  - people.md
+  - publications.md
+  - timeline.md
+  - blog.md
+plugins:
+  - jekyll-feed
+sass:
+  style: compressed
