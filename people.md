@@ -22,7 +22,9 @@ Tijl De Bie is Professor of AI and Data Mining at Ghent University and a core me
 > Team photos currently use local placeholders in this repository. Replace image files in `assets/img/` with official AIDA profile photos to publish the final version.
 
 <div class="people-grid">
-  {% for person in site.data.people %}
+  {% assign sorted_people = site.data.people | sort: 'last_name' %}
+  {% for person in sorted_people %}
+    {% if person.role == 'Team Member' %}
     <article class="person-card">
       <img src="{{ person.image | relative_url }}" alt="Portrait of {{ person.name }}" class="person-photo" />
       <h3>{{ person.name }}</h3>
@@ -31,5 +33,6 @@ Tijl De Bie is Professor of AI and Data Mining at Ghent University and a core me
       <p>{{ person.bio }}</p>
       <p><a href="{{ person.profile_url }}" target="_blank" rel="noopener">Profile</a></p>
     </article>
+    {% endif %}
   {% endfor %}
 </div>
