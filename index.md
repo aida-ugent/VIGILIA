@@ -31,10 +31,9 @@ VIGILIA studies principles, methods, and tools for building AI systems that can 
 
 ### Team
 
-{% assign core_team = site.data.people | where_exp: 'p', 'p.role != "PI"' %}
+{% assign all_team = site.data.people | sort: 'last_name' %}
 
-- **Principal Investigator:** [Tijl De Bie]({{ '/people/' | relative_url }})
-- **Core team members:** {% for person in core_team %}{{ person.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+- **Team:** {% for person in all_team %}{{ person.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 ➡ Visit the [People page]({{ '/people/' | relative_url }}) for photos and short bios.
 
