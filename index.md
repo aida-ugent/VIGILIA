@@ -22,6 +22,14 @@ The project addresses the risk of a post-truth information environment in which 
 
 Sources: [CORDIS project page](https://cordis.europa.eu/project/id/101142229), [Ghent University project page](https://research.ugent.be/web/result/project/7002006f-8385-4200-89ba-7a220755e2b1/details/en).
 
+
+<div class="funding-badge">
+  <a href="https://erc.europa.eu/support/logos" target="_blank" rel="noopener noreferrer" aria-label="European Research Council logos and brand guidelines">
+    <img src="https://erc.europa.eu/sites/default/files/2025-08/LOGO_ERC-FLAG_EU.png" alt="European Research Council and EU funding logo" class="erc-logo" loading="lazy" />
+  </a>
+  <p class="funding-badge-text">Funded by the European Research Council (ERC), under the Horizon Europe programme.</p>
+</div>
+
 ### Core team
 
 {% assign all_team = site.data.people | sort: 'last_name' %}

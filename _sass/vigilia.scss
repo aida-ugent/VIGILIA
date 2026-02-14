@@ -161,4 +161,37 @@ h3 {
     font-size: 0.82rem;
     overflow-wrap: anywhere;
   }
+
+  .funding-badge {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .erc-logo {
+    width: min(280px, 82vw);
+  }
+}
+
+
+.funding-badge {
+  margin: 1.25rem 0 0.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid #d9e2ef;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.erc-logo {
+  width: min(320px, 55vw);
+  height: auto;
+  display: block;
+}
+
+.funding-badge-text {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--vigilia-text);
 }
