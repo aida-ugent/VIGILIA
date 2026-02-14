@@ -11,7 +11,6 @@ minima:
 header_pages:
   - people.md
   - publications.md
-  - timeline.md
   - blog.md
 plugins:
   - jekyll-feed

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-permalink: /blog.html
+permalink: /blog/
 ---
 
 {% if site.posts.size > 0 %}

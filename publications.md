@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publications.html
+permalink: /publications/
 ---
 
 This page lists publications acknowledging ERC Advanced Grant **VIGILIA (101142229)**.
