@@ -1,44 +1,54 @@
 - name: Tijl De Bie
   role: PI
-  title: Professor of AI and Data Mining, Ghent University
+  title: Professor of AI and Data Mining
   image: /assets/img/tijl-de-bie.svg
-  profile_url: https://aida.ugent.be/
+  profile_url: https://aida.ugent.be/team/tijl-de-bie/
   bio: >-
-    Tijl De Bie is Professor at Ghent University and leads research at the intersection of
-    machine learning, data mining, and responsible AI. He serves as Principal Investigator
-    of the ERC Advanced Grant project VIGILIA within AIDA-IDLab.
+    Tijl De Bie is Professor of AI and Data Mining at Ghent University and a core member of
+    AIDA-IDLab. He leads the ERC Advanced Grant project VIGILIA on reliable and accountable
+    machine learning.
 
 - name: Yousra Fettach
   role: Team Member
   title: Doctoral Researcher
   image: /assets/img/yousra-fettach.svg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
+  profile_url: https://aida.ugent.be/team/yousra-fettach/
+  bio: >-
+    Yousra Fettach is a doctoral researcher in the VIGILIA team at AIDA-IDLab, Ghent University.
+    Her work contributes to dependable machine learning methods for high-stakes applications.
 
 - name: Noêmie De Vlaminck
   role: Team Member
   title: Doctoral Researcher
   image: /assets/img/noemie-de-vlaminck.svg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
+  profile_url: https://aida.ugent.be/team/noemie-de-vlaminck/
+  bio: >-
+    Noêmie De Vlaminck is a doctoral researcher with VIGILIA at AIDA-IDLab.
+    She studies machine learning approaches that improve transparency and robustness.
 
 - name: Maria-Louisa Wightman
   role: Team Member
-  title: Doctoral Researcher
+  title: Postdoctoral Researcher
   image: /assets/img/maria-louisa-wightman.svg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
+  profile_url: https://aida.ugent.be/team/maria-louisa-wightman/
+  bio: >-
+    Maria-Louisa Wightman is a postdoctoral researcher in the VIGILIA project at AIDA-IDLab.
+    She works on methods that strengthen trustworthiness and reliability in AI systems.
 
 - name: Filippos Vlahos
   role: Team Member
   title: Doctoral Researcher
   image: /assets/img/filippos-vlahos.svg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
+  profile_url: https://aida.ugent.be/team/filippos-vlahos/
+  bio: >-
+    Filippos Vlahos is a doctoral researcher in the VIGILIA team at AIDA-IDLab.
+    His research focuses on building robust and interpretable machine learning models.
 
 - name: Kamile Dementaviciute
   role: Team Member
   title: Doctoral Researcher
   image: /assets/img/kamile-dementaviciute.svg
-  profile_url: https://aida.ugent.be/
-  bio: Researcher in the VIGILIA team.
+  profile_url: https://aida.ugent.be/team/kamile-dementaviciute/
+  bio: >-
+    Kamile Dementaviciute is a doctoral researcher within VIGILIA at AIDA-IDLab.
+    She investigates techniques for safer, more transparent AI and data-driven decision-making.
