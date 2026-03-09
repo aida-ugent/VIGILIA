@@ -1,4 +1,4 @@
-- title: "What Large Language Models Do Not Talk About: An Empirical Study of Moderation and Censorship Practices"
+- title: "What large language models do not talk about : an empirical study of moderation and censorship practices"
   authors: "Sander Noels, Guillaume Bied, Maarten Buyl, Alexander Rogiers, Yousra Fettach, Jefrey Lijffijt, Tijl De Bie"
   venue: "conference"
   year: 2026
@@ -8,11 +8,6 @@
   venue: "misc"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JWB162HRGVZR22H0VDAX411K"
-- title: "InfoClus : informative clustering of high-dimensional data embeddings"
-  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
-  venue: "misc"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
 - title: "Content-agnostic moderation for stance-neutral recommendations"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "conference"
@@ -33,6 +28,11 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
+- title: "InfoClus : informative clustering of high-dimensional data embeddings"
+  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
+  venue: "misc"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
 - title: "AI alignment at your discretion"
   authors: "Maarten Buyl, Hadi Khalaf, Claudio Mayrink Verdun, Lucas Monteiro Paes, Caio C. Vieira Machado, Flavio du Pin Calmon"
   venue: "conference"
