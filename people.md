@@ -4,8 +4,6 @@ title: People
 permalink: /people/
 ---
 
-## VIGILIA Core team
-
 <div class="people-grid">
   {% assign sorted_people = site.data.people | sort: 'last_name' %}
   {% for person in sorted_people %}
