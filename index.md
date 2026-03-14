@@ -4,7 +4,7 @@ title: VIGILIA
 permalink: /
 ---
 
-### Project overview
+### Overview
 
 **VIGILIA** (VIrtual GuardIan AngeLs for the post-truth Information Age) is an **ERC Advanced Grant** project at **Ghent University**, coordinated by **Prof. Tijl De Bie** within the [AIDA-IDLab research group](https://aida.ugent.be/).
 
