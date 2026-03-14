@@ -4,8 +4,6 @@ title: VIGILIA
 permalink: /
 ---
 
-## Overview
-
 **VIGILIA** (VIrtual GuardIan AngeLs for the post-truth Information Age) is an **ERC Advanced Grant** project at **Ghent University**, coordinated by **Prof. Tijl De Bie** within the [AIDA-IDLab research group](https://aida.ugent.be/).
 
 The project addresses the risk of a post-truth information environment in which people can no longer reliably distinguish fact from fiction. Drawing on AI and user modelling, VIGILIA develops methods to detect triggers of cognitive biases and heuristics in how people process information, and studies their effects at interpersonal level (trust, reputation, information propagation) and societal level (irrational behaviour and polarisation). The project integrates these methods into VIrtual GuardIan AngeLs (VIGILs) for news and social media users, journalists, researchers, and policy makers, with ethics treated as a core research component.
