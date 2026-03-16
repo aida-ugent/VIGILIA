@@ -13,6 +13,11 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
+- title: "InfoClus : informative clustering of high-dimensional data embeddings"
+  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
+  venue: "misc"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
 - title: "Building data-driven occupation taxonomies : a bottom-up multi-stage approach via semantic clustering and multi-agent collaboration"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "conference"
@@ -28,11 +33,6 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
-- title: "InfoClus : informative clustering of high-dimensional data embeddings"
-  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
-  venue: "misc"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
 - title: "AI alignment at your discretion"
   authors: "Maarten Buyl, Hadi Khalaf, Claudio Mayrink Verdun, Lucas Monteiro Paes, Caio C. Vieira Machado, Flavio du Pin Calmon"
   venue: "conference"
