@@ -8,11 +8,6 @@
   venue: "misc"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JWB162HRGVZR22H0VDAX411K"
-- title: "Content-agnostic moderation for stance-neutral recommendations"
-  authors: "Nan Li, Bo Kang, Tijl De Bie"
-  venue: "conference"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
 - title: "InfoClus : informative clustering of high-dimensional data embeddings"
   authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
   venue: "misc"
@@ -53,6 +48,11 @@
   venue: "journalArticle"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JS1JW996PTJWV3WTEEKMW1EA"
+- title: "Content-agnostic moderation for stance-neutral recommendations"
+  authors: "Nan Li, Bo Kang, Tijl De Bie"
+  venue: "conference"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
 - title: "Persuasion with large language models : a survey"
   authors: "Alexander Rogiers, Sander Noels, Maarten Buyl, Tijl De Bie"
   venue: "misc"
