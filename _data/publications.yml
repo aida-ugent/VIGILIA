@@ -8,11 +8,11 @@
   venue: "misc"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JWB162HRGVZR22H0VDAX411K"
-- title: "InfoClus : informative clustering of high-dimensional data embeddings"
-  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
-  venue: "misc"
+- title: "ABCFair : an adaptable benchmark approach for comparing fairness methods"
+  authors: "Marybeth Defrance, Maarten Buyl, Tijl De Bie"
+  venue: "conference"
   year: 2025
-  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
+  url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
 - title: "Building data-driven occupation taxonomies : a bottom-up multi-stage approach via semantic clustering and multi-agent collaboration"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "conference"
@@ -23,11 +23,11 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KAB2BADZYBCMH9A86425KXGG"
-- title: "ABCFair : an adaptable benchmark approach for comparing fairness methods"
-  authors: "Marybeth Defrance, Maarten Buyl, Tijl De Bie"
-  venue: "conference"
+- title: "InfoClus : informative clustering of high-dimensional data embeddings"
+  authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
+  venue: "misc"
   year: 2025
-  url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
+  url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
 - title: "AI alignment at your discretion"
   authors: "Maarten Buyl, Hadi Khalaf, Claudio Mayrink Verdun, Lucas Monteiro Paes, Caio C. Vieira Machado, Flavio du Pin Calmon"
   venue: "conference"
@@ -43,16 +43,16 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KAJX4SRB4W8N1D7DXFAMTT8X"
-- title: "LLM4Jobs : unsupervised occupation extraction and standardization leveraging large language models"
-  authors: "Nan Li, Bo Kang, Tijl De Bie"
-  venue: "journalArticle"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01JS1JW996PTJWV3WTEEKMW1EA"
 - title: "Content-agnostic moderation for stance-neutral recommendations"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
+- title: "LLM4Jobs : unsupervised occupation extraction and standardization leveraging large language models"
+  authors: "Nan Li, Bo Kang, Tijl De Bie"
+  venue: "journalArticle"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01JS1JW996PTJWV3WTEEKMW1EA"
 - title: "Persuasion with large language models : a survey"
   authors: "Alexander Rogiers, Sander Noels, Maarten Buyl, Tijl De Bie"
   venue: "misc"
