@@ -13,11 +13,6 @@
   venue: "misc"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JWB162HRGVZR22H0VDAX411K"
-- title: "ABCFair : an adaptable benchmark approach for comparing fairness methods"
-  authors: "Marybeth Defrance, Maarten Buyl, Tijl De Bie"
-  venue: "conference"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
 - title: "Building data-driven occupation taxonomies : a bottom-up multi-stage approach via semantic clustering and multi-agent collaboration"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "conference"
@@ -33,16 +28,21 @@
   venue: "misc"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JY42EMC0SRBVKMMHJ2FST4MY"
-- title: "AI alignment at your discretion"
-  authors: "Maarten Buyl, Hadi Khalaf, Claudio Mayrink Verdun, Lucas Monteiro Paes, Caio C. Vieira Machado, Flavio du Pin Calmon"
+- title: "ABCFair : an adaptable benchmark approach for comparing fairness methods"
+  authors: "Marybeth Defrance, Maarten Buyl, Tijl De Bie"
   venue: "conference"
   year: 2025
-  url: "http://hdl.handle.net/1854/LU-01JWB0962G5JG96BTK5YX4WV1Z"
+  url: "http://hdl.handle.net/1854/LU-01K0ER2NC94K7G47ZA3RRFNB2F"
 - title: "Multiresolution analysis and statistical thresholding on dynamic networks"
   authors: "Raphaël Romero, Tijl De Bie, N. Heard, A. Modell"
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KC8VXK51V0BG6MRWS5228TJE"
+- title: "AI alignment at your discretion"
+  authors: "Maarten Buyl, Hadi Khalaf, Claudio Mayrink Verdun, Lucas Monteiro Paes, Caio C. Vieira Machado, Flavio du Pin Calmon"
+  venue: "conference"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01JWB0962G5JG96BTK5YX4WV1Z"
 - title: "InfoClus : informative clustering of high-dimensional data embeddings"
   authors: "Fuyin Lai, Edith Heiter, Guillaume Bied, Jefrey Lijffijt"
   venue: "conference"
