@@ -58,6 +58,11 @@
   venue: "journalArticle"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JS1JW996PTJWV3WTEEKMW1EA"
+- title: "JobHop : a large-scale dataset of career trajectories"
+  authors: "Iman Johary, Raphaël Romero, Alexandru-Cristian Mara, Tijl De Bie"
+  venue: "conference"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01KK9G9E4499JX8RRS67GW1JRH"
 - title: "Persuasion with large language models : a survey"
   authors: "Alexander Rogiers, Sander Noels, Maarten Buyl, Tijl De Bie"
   venue: "misc"
