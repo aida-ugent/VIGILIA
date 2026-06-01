@@ -48,16 +48,16 @@
   venue: "conference"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01KAJX4SRB4W8N1D7DXFAMTT8X"
-- title: "Content-agnostic moderation for stance-neutral recommendations"
-  authors: "Nan Li, Bo Kang, Tijl De Bie"
-  venue: "conference"
-  year: 2025
-  url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
 - title: "LLM4Jobs : unsupervised occupation extraction and standardization leveraging large language models"
   authors: "Nan Li, Bo Kang, Tijl De Bie"
   venue: "journalArticle"
   year: 2025
   url: "http://hdl.handle.net/1854/LU-01JS1JW996PTJWV3WTEEKMW1EA"
+- title: "Content-agnostic moderation for stance-neutral recommendations"
+  authors: "Nan Li, Bo Kang, Tijl De Bie"
+  venue: "conference"
+  year: 2025
+  url: "http://hdl.handle.net/1854/LU-01KAB1ZMDSWAMBDN31T6SBFKZZ"
 - title: "JobHop : a large-scale dataset of career trajectories"
   authors: "Iman Johary, Raphaël Romero, Alexandru-Cristian Mara, Tijl De Bie"
   venue: "conference"
